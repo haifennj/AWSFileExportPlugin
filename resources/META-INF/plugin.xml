@@ -1,0 +1,114 @@
+<idea-plugin>
+    <id>com-actionsoft-aws-file-export-plugin</id>
+    <name>AWS File Export</name>
+    <version>1.0.0</version>
+    <vendor email="haifennj@gmail.com">haifennj</vendor>
+
+<!--    <description><![CDATA[-->
+<!--        <b>AWS File Export</b><br/>-->
+<!--        Author：<br/>-->
+<!--        Haifennj<br/>-->
+<!--    ]]></description>-->
+
+    <change-notes><![CDATA[
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="211"/>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.lang</depends>
+    <extensions defaultExtensionNs="com.intellij">
+        <!--<postStartupActivity implementation="com.github.haifennj.ideaplugin.helper.MyStartupActivity"/>-->
+        <!--<startupActivity implementation="com.github.haifennj.ideaplugin.helper.MyOldStartupActivity"/>-->
+        <!--<backgroundPostStartupActivity implementation="com.github.haifennj.ideaplugin.helper.MyNewStartupActivity"/>-->
+        <!-- displayType只有这四种类型, id 在一个插件内不能重复,isLogByDefault表示是否在 Event Log 中记录 -->
+        <notificationGroup displayType="BALLOON" id="com.github.haifennj.file.export.notification.balloon"
+                           isLogByDefault="false"/>
+    </extensions>
+
+    <actions>
+        <group>
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <separator/>
+        </group>
+        <action id="AWSPlugin.Action10" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action1">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action20" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action2">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action30" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action3">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action40" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action4">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action50" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action5">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action60" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action6">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action70" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action7">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action80" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action8">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action90" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action9">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action100" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action10">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action110" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action11">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action120" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action12">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action130" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action13">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action140" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action14">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action150" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action15">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action160" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action16">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action170" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action17">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action180" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action18">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action190" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action19">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="AWSPlugin.Action200" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action20">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <action id="FileExportAction210" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="------------------------------">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </action>
+        <group id="FileExportAction0" class="com.github.haifennj.ideaplugin.file.FileExportActionGroup" text="一键导出(更多)" popup="true">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+        </group>
+        <group>
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <separator/>
+        </group>
+    </actions>
+
+</idea-plugin>
