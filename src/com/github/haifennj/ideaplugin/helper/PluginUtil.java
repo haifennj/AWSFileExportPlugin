@@ -16,18 +16,6 @@ public class PluginUtil {
 	public static Module getReleaseModule(Project project, boolean isMsg) {
 		// 1. 查找可能的模块名称
 		Module releaseModule = findReleaseModule(project);
-		Module[] allModules = ModuleManager.getInstance(project).getModules();
-		for (Module module : allModules) {
-			String moduleName = module.getName().toLowerCase();
-
-			// 多种匹配条件
-			if (moduleName.equals("release") ||
-					moduleName.contains("release") ||
-					moduleName.equals("aws.release")) {
-				releaseModule = module;
-				break;
-			}
-		}
 
 		// 2. 检查模块是否存在
 		if (releaseModule == null) {

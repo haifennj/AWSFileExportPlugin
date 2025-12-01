@@ -39,70 +39,70 @@
             <add-to-group group-id="ToolsMenu" anchor="last"/>
             <separator/>
         </group>
-        <action id="AWSPlugin.Action10" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action1">
+        <action id="AWSPlugin.File.Export.Action10" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action1">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action20" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action2">
+        <action id="AWSPlugin.File.Export.Action20" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action2">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action30" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action3">
+        <action id="AWSPlugin.File.Export.Action30" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action3">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action40" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action4">
+        <action id="AWSPlugin.File.Export.Action40" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action4">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action50" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action5">
+        <action id="AWSPlugin.File.Export.Action50" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action5">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action60" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action6">
+        <action id="AWSPlugin.File.Export.Action60" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action6">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action70" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action7">
+        <action id="AWSPlugin.File.Export.Action70" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action7">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action80" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action8">
+        <action id="AWSPlugin.File.Export.Action80" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action8">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action90" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action9">
+        <action id="AWSPlugin.File.Export.Action90" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action9">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action100" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action10">
+        <action id="AWSPlugin.File.Export.Action100" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action10">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action110" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action11">
+        <action id="AWSPlugin.File.Export.Action110" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action11">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action120" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action12">
+        <action id="AWSPlugin.File.Export.Action120" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action12">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action130" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action13">
+        <action id="AWSPlugin.File.Export.Action130" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action13">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action140" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action14">
+        <action id="AWSPlugin.File.Export.Action140" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action14">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action150" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action15">
+        <action id="AWSPlugin.File.Export.Action150" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action15">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action160" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action16">
+        <action id="AWSPlugin.File.Export.Action160" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action16">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action170" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action17">
+        <action id="AWSPlugin.File.Export.Action170" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action17">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action180" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action18">
+        <action id="AWSPlugin.File.Export.Action180" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action18">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action190" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action19">
+        <action id="AWSPlugin.File.Export.Action190" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action19">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="AWSPlugin.Action200" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action20">
+        <action id="AWSPlugin.File.Export.Action200" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="Action20">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <action id="FileExportAction210" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="------------------------------">
+        <action id="AWSFileExportAction210" class="com.github.haifennj.ideaplugin.file.FileExportAction" text="------------------------------">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </action>
-        <group id="FileExportAction0" class="com.github.haifennj.ideaplugin.file.FileExportActionGroup" text="一键导出(更多)" popup="true">
+        <group id="AWSFileExportAction0" class="com.github.haifennj.ideaplugin.file.FileExportActionGroup" text="一键导出(更多)" popup="true">
             <add-to-group group-id="ToolsMenu" anchor="last"/>
         </group>
         <group>
