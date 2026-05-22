@@ -155,6 +155,12 @@ public class FileExportPathList {
 				)),
 				Map.of("actionId", "630", "id", "AWSFileExport-awsui-3-4", "level", 2, "ver", 7, "name", "一键导出(awsui@3.4.0)", "paths", List.of(
 						"webserver/webapps/portal/commons/js/vue/awsui@3.4.0"
+				)),
+				Map.of("actionId", "640", "id", "AWSFileExport-awsui-3-5", "level", 2, "ver", 7, "name", "一键导出(awsui@3.5.0)", "paths", List.of(
+						"webserver/webapps/portal/commons/js/vue/awsui@3.5.0"
+				)),
+				Map.of("actionId", "641", "id", "AWSFileExport-awsui-3-5-2", "level", 2, "ver", 7, "name", "一键导出(awsui@3.5.0-70)", "paths", List.of(
+						"webserver/webapps/portal/commons/js/vue/awsui@3.5.0-70"
 				))
 		));
 	}
